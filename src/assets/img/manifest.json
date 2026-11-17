@@ -1,0 +1,187 @@
+{
+ "fisura-medicion": {
+  "w": 2560,
+  "h": 1440,
+  "widths": [
+   768,
+   1280,
+   1920,
+   2560
+  ]
+ },
+ "fisura-cinta": {
+  "w": 731,
+  "h": 1300,
+  "widths": [
+   480,
+   731
+  ]
+ },
+ "fisura-cinta-detalle": {
+  "w": 731,
+  "h": 1300,
+  "widths": [
+   480,
+   731
+  ]
+ },
+ "medidor-laser-pared": {
+  "w": 731,
+  "h": 1300,
+  "widths": [
+   480,
+   731
+  ]
+ },
+ "medidor-laser": {
+  "w": 731,
+  "h": 1300,
+  "widths": [
+   480,
+   731
+  ]
+ },
+ "daniel-abud": {
+  "w": 730,
+  "h": 730,
+  "widths": [
+   480,
+   730
+  ]
+ },
+ "daniel-abud-oficina": {
+  "w": 1300,
+  "h": 731,
+  "widths": [
+   768,
+   1300
+  ]
+ },
+ "analisis-notebook": {
+  "w": 1280,
+  "h": 720,
+  "widths": [
+   768,
+   1280
+  ]
+ },
+ "calculo-estructural-cad": {
+  "w": 852,
+  "h": 479,
+  "widths": [
+   480,
+   852
+  ]
+ },
+ "cad-detalle": {
+  "w": 569,
+  "h": 569,
+  "widths": [
+   569
+  ]
+ },
+ "modelo-3d": {
+  "w": 719,
+  "h": 719,
+  "widths": [
+   480,
+   719
+  ]
+ },
+ "via-puente-obra": {
+  "w": 1280,
+  "h": 720,
+  "widths": [
+   768,
+   1280
+  ]
+ },
+ "via-puente-obra-sq": {
+  "w": 853,
+  "h": 853,
+  "widths": [
+   480,
+   853
+  ]
+ },
+ "instalacion-electrica": {
+  "w": 1280,
+  "h": 720,
+  "widths": [
+   768,
+   1280
+  ]
+ },
+ "instalacion-electrica-sq": {
+  "w": 853,
+  "h": 854,
+  "widths": [
+   480,
+   853
+  ]
+ },
+ "informe-tecnico": {
+  "w": 1280,
+  "h": 720,
+  "widths": [
+   768,
+   1280
+  ]
+ },
+ "informe-tecnico-sq": {
+  "w": 854,
+  "h": 853,
+  "widths": [
+   480,
+   854
+  ]
+ },
+ "tasacion-planos": {
+  "w": 1280,
+  "h": 719,
+  "widths": [
+   768,
+   1280
+  ]
+ },
+ "tasacion-planos-sq": {
+  "w": 854,
+  "h": 853,
+  "widths": [
+   480,
+   854
+  ]
+ },
+ "tablero-inspeccion": {
+  "w": 1280,
+  "h": 720,
+  "widths": [
+   768,
+   1280
+  ]
+ },
+ "tablero-inspeccion-sq": {
+  "w": 853,
+  "h": 852,
+  "widths": [
+   480,
+   853
+  ]
+ },
+ "obra-hormigon": {
+  "w": 1300,
+  "h": 867,
+  "widths": [
+   768,
+   1300
+  ]
+ },
+ "estructura-pizarra": {
+  "w": 1300,
+  "h": 867,
+  "widths": [
+   768,
+   1300
+  ]
+ }
+}
