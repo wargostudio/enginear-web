@@ -36,10 +36,13 @@ Para cambiar textos, editá `src/data/site.mjs` y volvé a compilar. Para sumar 
 
 ## Publicar en Hostinger
 
-1. Compilar (`node tools/build.mjs`).
-2. Subir **el contenido** de `dist/` a `public_html/`, incluido el `.htaccess` oculto.
-3. Crear la casilla `no-reply@enginearcba.com.ar`, que el formulario usa como remitente.
-4. Probar el formulario en producción y enviar el sitemap a Google Search Console.
+**Opción A: despliegue Git (hPanel → Avanzado → GIT).** Hostinger copia el repositorio entero en `public_html`. El `.htaccess` de la raíz del repo sirve `dist/` sin cambiar las URLs y bloquea `src/`, `tools/`, `originals/` y `.git`. El document root queda en `public_html`: **no hay que apuntarlo a `src/static`**, que no contiene las páginas. Antes de cada push hay que compilar, porque `dist/` va versionado.
+
+**Opción B: subida manual.** Subir **el contenido** de `dist/` a `public_html/`, incluido el `.htaccess` oculto. En este caso el `.htaccess` de la raíz del repo no se usa.
+
+En los dos casos:
+1. Crear la casilla `no-reply@enginearcba.com.ar`, que el formulario usa como remitente.
+2. Probar el formulario en producción y enviar el sitemap a Google Search Console.
 
 El `.htaccess` redirige las URLs del WordPress anterior, fuerza HTTPS, sirve la página 404, maneja la caché y agrega cabeceras de seguridad (incluida una CSP estricta).
 
