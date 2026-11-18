@@ -7,6 +7,9 @@
 
 Options -Indexes
 DirectoryIndex index.html
+# Página 404 propia (/404.html se reescribe a dist/404.html). Hace falta
+# declararla acá: el servidor de Hostinger no toma la de dist/.htaccess.
+ErrorDocument 404 /404.html
 
 # Código fuente, herramientas y archivos de configuración: nunca se sirven
 # (mod_alias se hereda a las subcarpetas aunque tengan su propio .htaccess).
