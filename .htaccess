@@ -26,6 +26,17 @@ ErrorDocument 404 /404.html
   # Todo pasa por dist/ (la URL no cambia). Las reglas de dist/.htaccess
   # (HTTPS, caché, seguridad, 404, redirecciones) se aplican después.
   RewriteRule ^dist/ - [L]
+
+  # Rutas que no existen en dist/ → página 404 propia (vía PHP, con código 404).
+  # Resguardo: solo se aplica si DOCUMENT_ROOT apunta bien a esta carpeta
+  # (existe dist/index.html); si no, se saltea y el sitio sigue funcionando.
+  # (Las URLs del WordPress anterior siguen a dist/, que las redirige.)
+  RewriteCond $1 !^(index\.php|wp-admin|wp-login\.php|xmlrpc\.php)
+  RewriteCond %{DOCUMENT_ROOT}/dist/index.html -f
+  RewriteCond %{DOCUMENT_ROOT}/dist/$1 !-f
+  RewriteCond %{DOCUMENT_ROOT}/dist/$1 !-d
+  RewriteRule ^(.*)$ dist/404.php [L]
+
   RewriteRule ^(.*)$ dist/$1 [L]
 </IfModule>
 
