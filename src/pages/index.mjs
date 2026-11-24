@@ -22,7 +22,7 @@ export default function () {
     <p class="kicker mono" data-scramble>${icon("crack")} Ingeniería forense · ${site.city}</p>
     <h1 class="hero__title" id="hero-title">
       <span class="hero__line" data-split>Ingeniería</span>
-      <span class="hero__line hero__line--hl" data-split>forense</span>
+      <span class="hero__line hero__line--hl" data-split>Civil Forense</span>
       <span class="hero__line hero__line--sub" data-split>y patología de la construcción</span>
     </h1>
     <p class="hero__lead reveal">Identificamos patologías de la construcción y brindamos soluciones con fundamento científico y técnico.</p>
