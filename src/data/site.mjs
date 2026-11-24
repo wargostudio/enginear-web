@@ -32,17 +32,17 @@ export const whatsappUrl = (text = site.whatsappText) =>
 // Texto institucional (literal del sitio actual)
 export const about = {
   quienes:
-    "Somos una empresa dedicada a la Ingeniería Forense. Nuestra función es identificar Patologías de la Construcción y brindar distintas soluciones, con fundamento científico, técnico y una trayectoria de más de treinta y cinco años en el rubro.",
+    "Somos una empresa dedicada a la Ingeniería Civil Forense. Nuestra función es identificar Patologías de la Construcción y brindar distintas soluciones, con fundamento científico, técnico y una trayectoria de más de treinta y cinco años en el rubro.",
   servicios:
-    "Tenemos más de 35 años de trayectoria en el rubro de la construcción y la ingeniería forense, aportando una visión global y especializada, para poder atender mejor a las distintas patologías que pudieran presentarse.",
+    "Tenemos más de 35 años de trayectoria en el rubro de la construcción y la ingeniería civil forense, aportando una visión global y especializada, para poder atender mejor a las distintas patologías que pudieran presentarse.",
   equipo:
-    "Somos un grupo de Ingenieros Civiles profesionales, altamente capacitados y, con una vasta trayectoria sobre nuestros hombros, que ofrecemos Asesoramiento Técnico en todas las áreas de la Ingeniería Civil, especialmente, en el área de Patología de la Construcción, Ingeniería Forense, Peritajes, Tasaciones, Daños y Reparaciones Edilicias, Vicios Constructivos, para Administraciones de Consorcios, Empresas, Profesionales y Particulares.",
+    "Somos un grupo de Ingenieros Civiles profesionales, altamente capacitados y, con una vasta trayectoria sobre nuestros hombros, que ofrecemos Asesoramiento Técnico en todas las áreas de la Ingeniería Civil, especialmente, en el área de Patología de la Construcción, Ingeniería Civil Forense, Peritajes, Tasaciones, Daños y Reparaciones Edilicias, Vicios Constructivos, para Administraciones de Consorcios, Empresas, Profesionales y Particulares.",
 };
 
 // Áreas de asesoramiento (del texto del equipo)
 export const areas = [
   "Patología de la Construcción",
-  "Ingeniería Forense",
+  "Ingeniería Civil Forense",
   "Peritajes",
   "Tasaciones",
   "Daños y Reparaciones Edilicias",

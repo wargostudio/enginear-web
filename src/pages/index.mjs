@@ -19,7 +19,7 @@ export default function () {
   </div>
   <div class="hero__rule" aria-hidden="true"></div>
   <div class="container hero__content">
-    <p class="kicker mono" data-scramble>${icon("crack")} Ingeniería forense · ${site.city}</p>
+    <p class="kicker mono" data-scramble>${icon("crack")} Ingeniería Civil Forense · ${site.city}</p>
     <h1 class="hero__title" id="hero-title">
       <span class="hero__line" data-split>Ingeniería</span>
       <span class="hero__line hero__line--hl" data-split>Civil Forense</span>
@@ -44,7 +44,7 @@ export default function () {
   <div class="container intro__grid">
     <div class="intro__text">
       <p class="sec-head__label mono" data-scramble><span>01</span> Quiénes somos</p>
-      <h2 class="intro__statement" id="intro-title" data-words>Somos una empresa dedicada a la <em>Ingeniería Forense.</em></h2>
+      <h2 class="intro__statement" id="intro-title" data-words>Somos una empresa dedicada a la <em>Ingeniería Civil Forense.</em></h2>
       <p class="intro__body reveal">Nuestra función es identificar <strong>Patologías de la Construcción</strong> y brindar distintas soluciones, con fundamento científico, técnico y una trayectoria de más de treinta y cinco años en el rubro.</p>
       <a class="link-arrow reveal" href="/nosotros/">Conocé a Enginear ${icon("arrow")}</a>
     </div>
@@ -57,7 +57,7 @@ export default function () {
     <div class="years">
       <span class="years__num" data-count="${site.years}">${site.years}</span><span class="years__plus">+</span>
     </div>
-    <p class="years__label">años de trayectoria en el rubro de la construcción y la ingeniería forense, con una visión global y especializada.</p>
+    <p class="years__label">años de trayectoria en el rubro de la construcción y la ingeniería civil forense, con una visión global y especializada.</p>
     <div class="ruler" aria-hidden="true"></div>
   </div>
 </section>`;
@@ -178,9 +178,9 @@ export default function () {
     key: "inicio",
     pathname: "/",
     priority: 1.0,
-    title: "Enginear | Ingeniería forense y patología de la construcción en Córdoba",
+    title: "Enginear | Ingeniería Civil Forense y patología constructiva en Córdoba",
     description:
-      "Ingeniería forense en Córdoba: fallas estructurales, peritajes, tasaciones, cálculo de estructuras y fundaciones. Más de 35 años de trayectoria. Consultanos.",
+      "Ingeniería Civil Forense en Córdoba: fallas estructurales, peritajes, tasaciones, cálculo de estructuras y fundaciones. Más de 35 años de trayectoria. Consultanos.",
     preload: `<link rel="preload" as="image" type="image/webp" media="(max-width: 767px)" imagesrcset="${srcsetOf("fisura-cinta")}" imagesizes="100vw" fetchpriority="high">
   <link rel="preload" as="image" type="image/webp" media="(min-width: 768px)" imagesrcset="${srcsetOf("fisura-medicion")}" imagesizes="100vw" fetchpriority="high">`,
     schema: [

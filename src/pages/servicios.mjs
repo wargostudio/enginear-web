@@ -71,7 +71,7 @@ export default function () {
     key: "servicios",
     pathname,
     priority: 0.9,
-    title: "Servicios de ingeniería forense, peritajes y tasaciones | Enginear Córdoba",
+    title: "Ingeniería civil forense, peritajes y tasaciones | Enginear Córdoba",
     description:
       "Fallas estructurales, rutas y puentes, instalaciones eléctricas, vida útil del inmueble, tasaciones, cálculo de estructuras y fundaciones. Enginear, Córdoba.",
     schema,

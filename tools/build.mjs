@@ -23,7 +23,7 @@ const orgSchema = {
   name: site.name,
   slogan: site.slogan,
   description:
-    "Empresa de Ingeniería Forense en Córdoba: identificación de patologías de la construcción, peritajes, tasaciones, cálculo de estructuras y fundaciones, con más de 35 años de trayectoria.",
+    "Empresa de Ingeniería Civil Forense en Córdoba: identificación de patologías de la construcción, peritajes, tasaciones, cálculo de estructuras y fundaciones, con más de 35 años de trayectoria.",
   url: `${site.url}/`,
   logo: `${site.url}/assets/img/icon-512.png`,
   image: `${site.url}/assets/img/og-enginear.jpg`,
@@ -32,7 +32,7 @@ const orgSchema = {
   address: { "@type": "PostalAddress", addressLocality: site.city, addressRegion: site.region, addressCountry: site.country },
   areaServed: { "@type": "AdministrativeArea", name: "Provincia de Córdoba" },
   sameAs: site.social.map((s) => s.url),
-  knowsAbout: ["Ingeniería Forense", "Patología de la Construcción", "Peritajes", "Tasaciones", "Vicios Constructivos", "Cálculo de estructuras"],
+  knowsAbout: ["Ingeniería Civil Forense", "Patología de la Construcción", "Peritajes", "Tasaciones", "Vicios Constructivos", "Cálculo de estructuras"],
 };
 
 // ---------- layout ----------
@@ -61,7 +61,7 @@ function head({ title, description, pathname, ogImage, schema = [], noindex = fa
   <meta property="og:image" content="${og}">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="Enginear — Ingeniería forense en Córdoba">
+  <meta property="og:image:alt" content="Enginear — Ingeniería Civil Forense en Córdoba">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="${esc(title)}">
   <meta name="twitter:description" content="${esc(description)}">
@@ -135,7 +135,7 @@ function footer() {
     <div class="site-footer__brand">
       <img src="/assets/img/logo-enginear.png" width="326" height="84" alt="Enginear" loading="lazy">
       <p class="mono site-footer__slogan">${site.slogan}</p>
-      <p>Ingeniería forense y patología de la construcción en ${site.city}. Más de ${site.years} años de trayectoria.</p>
+      <p>Ingeniería Civil Forense y patología de la construcción en ${site.city}. Más de ${site.years} años de trayectoria.</p>
     </div>
     <nav class="site-footer__col" aria-label="Secciones">
       <p class="mono label">Secciones</p>

@@ -28,7 +28,7 @@ export default function () {
     { icon: "search", t: "Fundamento científico", d: "Cada análisis se apoya en una base científica." },
     { icon: "ruler", t: "Fundamento técnico", d: "Relevamos, medimos y calculamos con criterio técnico." },
     { icon: "layers", t: "Visión global y especializada", d: "Para atender mejor a las distintas patologías que pudieran presentarse." },
-    { icon: "shield", t: `Más de ${site.years} años`, d: "De trayectoria en el rubro de la construcción y la ingeniería forense." },
+    { icon: "shield", t: `Más de ${site.years} años`, d: "De trayectoria en el rubro de la construcción y la ingeniería civil forense." },
   ];
   const pillarsBlock = `
 <section class="pillars section section--dark" aria-labelledby="pilares-title">
@@ -82,9 +82,9 @@ export default function () {
     key: "nosotros",
     pathname,
     priority: 0.8,
-    title: "Nosotros: ingenieros civiles e ingeniería forense | Enginear Córdoba",
+    title: "Nosotros: equipo de Ingeniería Civil Forense | Enginear Córdoba",
     description:
-      "Enginear es una empresa de Ingeniería Forense de Córdoba. Ingenieros civiles con más de 35 años de trayectoria en patología de la construcción, peritajes y tasaciones.",
+      "Enginear, Ingeniería Civil Forense en Córdoba. Ingenieros civiles con más de 35 años de trayectoria en patología de la construcción, peritajes y tasaciones.",
     schema: [
       breadcrumbSchema("Nosotros", pathname),
       {
@@ -103,7 +103,7 @@ export default function () {
         label: "Nosotros",
         crumbs: "Nosotros",
         title: `Ingeniería <em>a su alcance.</em>`,
-        lead: "Una empresa dedicada a la Ingeniería Forense, con una trayectoria de más de treinta y cinco años en el rubro.",
+        lead: "Una empresa dedicada a la Ingeniería Civil Forense, con una trayectoria de más de treinta y cinco años en el rubro.",
         media,
       }) +
       who +

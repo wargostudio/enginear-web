@@ -8,7 +8,7 @@ export default function () {
     file: "404.html",
     noindex: true,
     title: "Página no encontrada | Enginear",
-    description: "La página que buscás no existe o cambió de dirección. Volvé al inicio de Enginear, ingeniería forense en Córdoba.",
+    description: "La página que buscás no existe o cambió de dirección. Volvé al inicio de Enginear, ingeniería civil forense en Córdoba.",
     body: `<section class="notfound">
   ${crack(19, "notfound__crack")}
   <div class="container notfound__inner">

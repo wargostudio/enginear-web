@@ -1,6 +1,6 @@
 # Enginear: sitio web
 
-Sitio oficial de **Enginear**, ingeniería forense y patología de la construcción en Córdoba.
+Sitio oficial de **Enginear**, ingeniería civil forense y patología de la construcción en Córdoba.
 Es un sitio estático multipágina (HTML, CSS y JS vanilla) con un formulario PHP. Está pensado para Hostinger o cualquier hosting Apache con PHP.
 
 ## Estructura
